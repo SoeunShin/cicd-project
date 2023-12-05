@@ -1,4 +1,4 @@
-FROM --platform=linux/x86-64 eclipse-temurin:17
+FROM eclipse-temurin:17
 
 COPY ./build/libs/CICDproj-0.0.1-SNAPSHOT-plain.jar app.jar
 
